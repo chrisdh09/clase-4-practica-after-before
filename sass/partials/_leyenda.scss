@@ -1,0 +1,16 @@
+.leyenda {
+    background: $tinta;
+    color: $fondo;
+    padding: 14px 24px;
+    font-size: 0.8rem;
+    text-align: center;
+
+    span {
+        display: inline-block;
+        margin: 0 8px;
+    }
+
+    b {
+        color: $acento;
+    }
+}

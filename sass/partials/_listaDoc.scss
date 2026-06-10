@@ -1,0 +1,17 @@
+.listDoc {
+  list-style: none;
+
+
+  li {
+    border-bottom: 1px solid $linea;
+  }
+
+  a {
+    display: block;
+    padding: 12px 8px;
+    text-decoration: none;
+    color: $tinta;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.95rem;
+  }
+}

@@ -92,6 +92,21 @@
   color: #c0492f;
 }
 
+.listDoc {
+  list-style: none;
+}
+.listDoc li {
+  border-bottom: 1px solid #ddd7ca;
+}
+.listDoc a {
+  display: block;
+  padding: 12px 8px;
+  text-decoration: none;
+  color: #2b2a26;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.95rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -105,6 +120,8 @@
   height: 52px;
   line-height: 52px;
   z-index: 100;
+  position: fixed;
+  width: 100%;
 }
 .menu__logo {
   display: inline-block;
@@ -150,22 +167,8 @@ h1 {
 
 .subtitulo {
   color: #8a857a;
+  margin-top: 15px;
   margin-bottom: 32px;
-}
-
-.listDoc {
-  list-style: none;
-}
-.listDoc li {
-  border-bottom: 1px solid #ddd7ca;
-}
-.listDoc a {
-  display: block;
-  padding: 12px 8px;
-  text-decoration: none;
-  color: #2b2a26;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.95rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

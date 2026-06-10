@@ -5,6 +5,7 @@
 @import "gen-variables";
 @import "partials/icons";
 @import "partials/leyenda";
+@import "partials/listaDoc";
 
 * {
   box-sizing: border-box;
@@ -19,7 +20,8 @@
   height: 52px;
   line-height: 52px;
   z-index: 100;
-
+  position: fixed;
+  width: 100%;
   &__logo {
     display: inline-block;
     font-family: "DM Sans", sans-serif;
@@ -69,23 +71,7 @@ h1 {
 
 .subtitulo {
   color: $suave;
+  margin-top: 15px;
   margin-bottom: 32px;
 }
 
-.listDoc {
-  list-style: none;
-
-
-  li {
-    border-bottom: 1px solid $linea;
-  }
-
-  a {
-    display: block;
-    padding: 12px 8px;
-    text-decoration: none;
-    color: $tinta;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.95rem;
-  }
-}

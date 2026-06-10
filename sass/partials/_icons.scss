@@ -1,5 +1,5 @@
 $iconos-archivos: (
-    // Excel (xlsx y .xls)
+    // Excel (.xlsx y .xls)
     "xlsx": "excel.png",
     "xls": "excel.png",
 
@@ -30,7 +30,7 @@ $iconos-archivos: (
 
 
         a[href$=".#{$ext}" i]::after {  //recordar que siempre el # se usa para declarar variables dentro del css
-            content: image-set(url('../assets/iconos/#{$archivo}') type("image/png") 4x); //este type es para decirle al navegador que tipo de arhivo va a cargar y si no lo soporta pues ni lo intenta y el 3x es la cantidad que la imagen se comprime, se usa si la imagen es muy grande. 
+            content: image-set(url('../assets/iconos/#{$archivo}') type("image/png") 4x); //este type es para decirle al navegador que tipo de arhivo va a cargar y si no lo soporta pues ni lo intenta y el 4x es la cantidad que la imagen se comprime, se usa si la imagen es muy grande. 
 
             transform: scale(1.7);
             margin-left: 15px;
